@@ -10,8 +10,6 @@ public class Main {
         Startable lesson1 = new LessonOneEnv();   // data types, etc
         Startable lesson2 = new LessonTwoEnv();   // OOP
 
-        LessonOneEnv lesson = new LessonOneEnv();
-
         lesson1.start();    // starts the certain lesson java class
         lesson2.start();
     }
